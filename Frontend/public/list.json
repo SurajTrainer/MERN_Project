@@ -1,23 +1,106 @@
 [
     {
         "id" : 1,
-        "name" : "Quickly design and customize responsive",
+        "name" : "Comedy Book",
+        "title" : "Quickly design and customize responsive",
         "price" : 0,
         "category" : "Free",
         "image" : "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg" 
     },
     {
-        "id" : 1,
-        "name" : "Quickly design and customize responsive",
+        "id" : 2,
+        "name" : "Physics",
+        "title" : "Quickly design and customize responsive",
+        "price" : 0,
+        "category" : "science",
+        "image" : "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg" 
+    },
+    {
+        "id" : 3,
+        "name" : "Chemistry Book",
+        "title" : "Quickly design and customize responsive",
+        "price" : 0,
+        "category" : "science",
+        "image" : "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg" 
+    },
+    {
+        "id" : 4,
+        "name" : "Sports Book",
+        "title" : "Quickly design and customize responsive",
         "price" : 0,
         "category" : "Free",
         "image" : "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg" 
     },
     {
-        "id" : 1,
-        "name" : "Quickly design and customize responsive",
+        "id" : 5,
+        "name" : "Shooes",
+        "title" : "Quickly design and customize responsive",
+        "price" : 0,
+        "category" : "sport",
+        "image" : "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg" 
+    },
+    {
+        "id" : 6,
+        "name" : "Food Book",
+        "title" : "Quickly design and customize responsive",
+        "price" : 370,
+        "category" : "Food",
+        "image" : "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg" 
+    },
+    {
+        "id" : 7,
+        "name" : "music book",
+        "title" : "Quickly design and customize responsive",
         "price" : 0,
         "category" : "Free",
         "image" : "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg" 
+    },
+    {
+        "id" : 8,
+        "name" : "phone",
+        "title" : "Quickly design and customize responsive",
+        "price" : 5000,
+        "category" : "gadget",
+        "image" : "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg" 
+    },
+    {
+        "id": 9,
+        "name": "Gardening Book",
+        "title": "Quickly design and customize responsive",
+        "price": 0,
+        "category": "Hobby",
+        "image": "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Art Book",
+        "title": "Quickly design and customize responsive",
+        "price": 0,
+        "category": "Art",
+        "image": "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg"
+    },
+    {
+        "id": 11,
+        "name": "History Book",
+        "title": "Quickly design and customize responsive",
+        "price": 0,
+        "category": "History",
+        "image": "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Cooking Book",
+        "title": "Quickly design and customize responsive",
+        "price": 0,
+        "category": "Food",
+        "image": "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Travel Guide",
+        "title": "Quickly design and customize responsive",
+        "price": 0,
+        "category": "Travel",
+        "image": "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg"
     }
 ]
