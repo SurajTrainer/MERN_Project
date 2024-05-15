@@ -1,18 +1,16 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Navbar from './components/Navbar'
-import Banner from './components/Banner'
-import Footer from './components/Footer'
-import FreeBook from './components/FreeBook'
+import { Routes, Route } from 'react-router-dom'
+import Home from './home/Home'
 
 
 const App = () => {
   return (
    <>
-   <Navbar/>
-    <Banner/>
-    <FreeBook/>
-    <Footer/>
+        <Routes>
+          <Route path = '/' element = {<Home/>} />
+          {/* <Route path = '/product' element = {<Product/>} /> */}
+        </Routes>
    </>
    
   )
