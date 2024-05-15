@@ -5,7 +5,7 @@
         "title": "Laughing through Pages",
         "price": 0,
         "category": "Free",
-        "image": "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg"
+        "image": "https://cdn.pixabay.com/photo/2020/12/11/18/24/woman-5823482_640.png"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "title": "Unraveling the Universe",
         "price": 0,
         "category": "science",
-        "image": "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg"
+        "image": "https://cdn.pixabay.com/photo/2016/12/08/11/50/time-1891569_1280.png"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "title": "Elements and Bonds",
         "price": 0,
         "category": "science",
-        "image": "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg"
+        "image": "https://cdn.pixabay.com/photo/2017/12/17/16/08/customer-experience-3024488_640.jpg"
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
         "title": "Step by Step: Sports Footwear",
         "price": 0,
         "category": "sport",
-        "image": "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbQp4glDiIVndjMGIN_jvmXGEs5ObZyRH3BMd8_kKNCg&s"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "title": "Culinary Chronicles",
         "price": 370,
         "category": "Food",
-        "image": "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg"
+        "image": "https://cdn.pixabay.com/photo/2024/04/15/19/14/ai-generated-8698544_1280.jpg"
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "title": "Harmonies of Sound",
         "price": 0,
         "category": "Free",
-        "image": "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg"
+        "image": "https://cdn.pixabay.com/photo/2024/05/10/10/44/sucess-8752856_1280.jpg"
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "title": "Tech Marvels: Communication Gadgets",
         "price": 5000,
         "category": "gadget",
-        "image": "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg"
+        "image": "https://cdn.pixabay.com/photo/2020/11/06/05/33/woman-5716875_640.png"
     },
     {
         "id": 9,
@@ -77,7 +77,7 @@
         "title": "Brushstrokes: Artistic Inspirations",
         "price": 0,
         "category": "Free",
-        "image": "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg"
+        "image": "https://cdn.pixabay.com/photo/2023/03/17/14/26/bear-7858736_640.jpg"
     },
     {
         "id": 11,
@@ -85,7 +85,7 @@
         "title": "Chronicles of the Past",
         "price": 0,
         "category": "History",
-        "image": "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg"
+        "image": "https://cdn.pixabay.com/photo/2015/10/10/13/03/prague-980732_640.jpg"
     },
     {
         "id": 12,
@@ -93,7 +93,7 @@
         "title": "From Kitchen to Table: Culinary Delights",
         "price": 0,
         "category": "Free",
-        "image": "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg"
+        "image": "https://cdn.pixabay.com/photo/2024/05/02/06/55/ai-generated-8733800_640.png"
     },
     {
         "id": 13,
@@ -101,6 +101,6 @@
         "title": "Wanderlust: Explore the World",
         "price": 0,
         "category": "Free",
-        "image": "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg"
+        "image": "https://cdn.pixabay.com/photo/2023/06/13/15/05/astronaut-8061095_640.png"
     }
 ]
