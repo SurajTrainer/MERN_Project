@@ -10,7 +10,6 @@ const App = () => {
    <>
    <Navbar/>
     <Banner/>
-    // 54:00
     <Footer/>
    </>
    
