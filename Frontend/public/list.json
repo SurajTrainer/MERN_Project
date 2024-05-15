@@ -68,7 +68,7 @@
         "name": "Gardening Book",
         "title": "Quickly design and customize responsive",
         "price": 0,
-        "category": "Hobby",
+        "category": "Free",
         "image": "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg"
     },
     {
@@ -76,7 +76,7 @@
         "name": "Art Book",
         "title": "Quickly design and customize responsive",
         "price": 0,
-        "category": "Art",
+        "category": "Free",
         "image": "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg"
     },
     {
@@ -92,7 +92,7 @@
         "name": "Cooking Book",
         "title": "Quickly design and customize responsive",
         "price": 0,
-        "category": "Food",
+        "category": "Free",
         "image": "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg"
     },
     {
@@ -100,7 +100,7 @@
         "name": "Travel Guide",
         "title": "Quickly design and customize responsive",
         "price": 0,
-        "category": "Travel",
+        "category": "Free",
         "image": "https://cdn.pixabay.com/photo/2015/07/27/20/16/book-863418_1280.jpg"
     }
 ]
