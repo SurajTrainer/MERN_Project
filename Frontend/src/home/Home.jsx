@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 const Home = () => {
   return (
    <>
-     {/* <Navbar/> */}
+     <Navbar/>  
     <Banner/>
     <FreeBook/>
     <Footer/>
