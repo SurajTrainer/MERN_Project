@@ -40,7 +40,9 @@ const Navbar = () => {
 
 
                     <div className="col-md-3 text-end">
+                        <Link to='/login'>
                         <button type="button" className="btn btn-outline-danger me-2">Login</button>
+                        </Link>
                     </div>
                 </header>
             </div>
