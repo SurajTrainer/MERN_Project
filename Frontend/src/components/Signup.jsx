@@ -6,7 +6,9 @@ const Signup = () => {
   <>
     <form className='form'>
     <h1 class="h3 mb-3 fw-normal"> sign Up Here</h1>
-    <Link to='/'>Home</Link>
+    <p>Go to : 
+        <Link to='/'>  Home</Link>
+        </p>
 
     <div class="form-floating mb-4">
       <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"/>
