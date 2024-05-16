@@ -22,7 +22,7 @@ const Login = () => {
         Remember me
       </label>
     </div>
-    <button className="btn btn-primary w-100 py-2" type="submit">Login</button>
+    <button className="btn btn-outline-success  py-2 login-btn" type="submit">Login</button>
     <p className="mt-5 mb-3 text-body-secondary">© 2017–2024</p>
   </form>
 </main>

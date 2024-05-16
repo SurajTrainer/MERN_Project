@@ -19,3 +19,18 @@ body {
 .product_data{
     margin-top: 120px;
 }
+
+
+/* Login Form */
+
+.form {
+    width: 30%;
+    margin: 52px auto;
+}
+
+.login-btn{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
