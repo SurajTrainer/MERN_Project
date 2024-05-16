@@ -7,6 +7,7 @@ const Login = () => {
             <main className="form">
   <form className=''>
     <h1 className="h3 mb-3 fw-normal">Please Login</h1>
+    <Link to='/'>Home</Link>
 
     <div className="form-floating mb-4">
       <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com"/>
