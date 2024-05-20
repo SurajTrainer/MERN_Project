@@ -2,6 +2,7 @@ import express from 'express'
 import 'dotenv/config'
 import mongoose from 'mongoose'
 import productStore from './route/product.route.js'
+import cors from 'cors'
 
 const app = express()
 
@@ -9,6 +10,7 @@ const port = process.env.PORT || 5000
 const URI = process.env.MONGODB_URI
 
 
+app.use(cors());
 
 app.get('/', (req, res) => {
   res.send(`<h1>Hello Mr. Suraj Singh Bisht</h1>`)
