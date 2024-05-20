@@ -17,12 +17,15 @@ app.get('/', (req, res) => {
 // connect to mongoDB
 
 try {
-    mongoose.connect(URI, {
-      useNewUrlParser : true,
-      useUnifiedTopology : true
-    } )
+    mongoose.connect(URI,
+    //    {
+    //   useNewUrlParser : true,
+    //   useUnifiedTopology : true
+    // }
+  )
+    console.log('mongoose connected successfully...');
 } catch (error) {
-  
+    console.log('error is : ' , error);
 }
 
 app.listen(port, () => {
