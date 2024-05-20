@@ -1,6 +1,7 @@
 import express from 'express'
 import 'dotenv/config'
 import mongoose from 'mongoose'
+import productStore from './route/product.route.js'
 
 const app = express()
 
@@ -27,6 +28,10 @@ try {
 } catch (error) {
     console.log('error is : ' , error);
 }
+
+
+  // calling routes
+app.use('/product', productStore)
 
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`)
