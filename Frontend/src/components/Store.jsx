@@ -1,11 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import list from '../../public/list.json'
 import Card from '../components/Card'
 import { Link } from 'react-router-dom'
+import list from '../../public/list.json'
+
 
 const Store = () => {
+
+
   return (
     <>
     <Navbar/>

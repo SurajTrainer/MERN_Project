@@ -1,11 +1,27 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import list from '../../public/list.json'
 import Card from '../components/Card'
+import axios from 'axios'
 import { Link } from 'react-router-dom'
 
 const Product = () => {
+
+  const  [product , setproduct] = useState([])
+
+  useEffect(() => {
+    const getproduct = async () => {
+      try {
+        const res =  await axios.get('http://localhost:3000/product')
+        console.log(res.data);
+        setproduct(res.data)
+      } catch (error) {
+        console.log('errroe is the : ' , error);
+      }
+    }
+    getproduct()
+  },[])
+  // for navbar component
   return (
     <>
     <Navbar/>
@@ -18,7 +34,7 @@ const Product = () => {
       </Link>
     </div>
     <div className='d-flex flex-wrap container product_data'>
-        {list.map((item) => (
+        {product.map((item) => (
           <Card key={item.id} item={item}/>
         ))}
         </div>
