@@ -1,13 +1,16 @@
 import express from 'express'
 import 'dotenv/config'
+import mongoose from 'mongoose'
 
 const app = express()
 
-
 const port = process.env.PORT || 5000
+const URI = process.env.MONGODB_URI
+
+
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send(`<h1>Hello Mr. Suraj Singh Bisht</h1>`)
 })
 
 app.listen(port, () => {
