@@ -2,9 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const Signup = () => {
+
+  // for submiting data
+ 
+
   return (
   <>
-    <form className='form'>
+    <form className='form'> 
     <h1 class="h3 mb-3 fw-normal"> sign Up Here</h1>
     <p>Go to : 
         <Link to='/'>  Home</Link>

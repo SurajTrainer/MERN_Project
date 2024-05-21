@@ -35,9 +35,9 @@ export const signup = async(req, res) => {
 
 export const login = async(req , res) => {
   try {
-      const {fullname , email} = req.body
+      const {  email , password} = req.body;
       const user = await User.findOne({email})
-      const isMatch = bcryptjs.compare(password , user.password)
+      const isMatch =await bcryptjs.compare(password , user.password)
       if (!user || !isMatch) {
           return res.status(400).json({message : " invalid username and password.."})
       }else{
