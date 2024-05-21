@@ -1,10 +1,30 @@
-import React from 'react'
-import list from '../../public/list.json'
+import React, { useEffect, useState } from 'react'
+import axios from 'axios'
 import Card from './Card'
 
 
 const FreeBook = () => {
-    const freeBookList = list.filter((data) => data.category === "Free")
+
+    // getting data from backend
+    const  [product , setproduct] = useState([])
+
+  useEffect(() => {
+    const getproduct = async () => {
+      try {
+        const res =  await axios.get('http://localhost:3000/product')
+        console.log(res.data);
+
+        // getting free product using filter
+        const freeproduct = res.data.filter((data) => data.category === "Free")
+        setproduct(freeproduct)
+      } catch (error) {
+        console.log('errroe is the : ' , error);
+      }
+    }
+    getproduct()
+  },[])
+
+    
     // console.log(freeBookList);
   return (
     <>
@@ -17,7 +37,7 @@ const FreeBook = () => {
             <p className='fs-6 mb-4'>Quickly design and customize responsive most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, </p>
         </div>
         <div className='d-flex flex-wrap'>
-            {freeBookList.map((item) => (
+            {product.map((item) => (
                 <Card item={item} key={item.id}/>
             ))}
         </div>
