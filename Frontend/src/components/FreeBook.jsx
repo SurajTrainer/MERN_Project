@@ -12,10 +12,10 @@ const FreeBook = () => {
     const getproduct = async () => {
       try {
         const res =  await axios.get('http://localhost:3000/product')
-        console.log(res.data);
-
+        
         // getting free product using filter
         const freeproduct = res.data.filter((data) => data.category === "Free")
+        console.log(freeproduct);
         setproduct(freeproduct)
       } catch (error) {
         console.log('errroe is the : ' , error);
