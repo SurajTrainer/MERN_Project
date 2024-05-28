@@ -1,0 +1,22 @@
+.card{
+    width: 88%;
+}
+
+.card-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 90%; */
+    text-align: center;
+    gap: 20px;
+    overflow-x: scroll;
+}
+
+.card-body::-webkit-scrollbar{
+    /* display: none; */
+}
+
+.card-img{
+    width: 7rem;
+    margin: 2px 12px;
+}
