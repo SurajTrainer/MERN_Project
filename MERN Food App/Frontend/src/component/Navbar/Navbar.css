@@ -1,0 +1,27 @@
+.navbar{
+    padding: 15px 12px;
+}
+
+.navbar-form{
+    margin-right: 29px;
+
+}
+
+.nav-img{
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+.navbar .dot{
+    background-color: red;
+    padding: 0px 10px;
+    margin-left: -22px;
+    margin-right: 17px;
+    border-radius: 25px;
+    
+}
+
+.signin-btn{
+    border-radius: 30px;
+    padding: 5px 12px;
+}

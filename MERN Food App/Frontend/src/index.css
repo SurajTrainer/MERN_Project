@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(41, 39, 39);
+}
+
+.app{
+  width: 100%;
+  margin: auto;
+}
