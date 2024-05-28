@@ -1,0 +1,16 @@
+.header{
+
+}
+
+.header-bg{
+    min-height: 70vh;
+    background: url('../../assets/frontend_assets/header_img.png') no-repeat;
+    background-size: contain;
+    margin: 6px 30px;
+    
+}
+
+.header-text{
+    color: white;
+    font-weight: 800;
+}
